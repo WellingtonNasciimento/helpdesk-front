@@ -29,6 +29,7 @@ import { MatCardModule } from '@angular/material/card';
 
 // componentes do projeto
 import { NavComponent } from './components/nav/nav.component';
+import { HomeComponent } from './components/home/home.component';
 
 // Componentes do projeto
 //import { NavComponent } from './components/nav/nav.component';
@@ -55,6 +56,7 @@ import { NavComponent } from './components/nav/nav.component';
   declarations: [
     AppComponent,
     NavComponent,
+    HomeComponent,
 //    NavComponent,
 //    HomeComponent,
 //    HeaderComponent,
