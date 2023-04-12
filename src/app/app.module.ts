@@ -37,6 +37,7 @@ import { ToastrModule } from 'ngx-toastr';
 import { AuthInterceptorProvider } from './interceptors/authentication.interceptor';
 import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecnico-create.component';
 import { NgxMaskModule } from 'ngx-mask';
+import { TecnicoUpdateComponent } from './components/tecnico/tecnico-update/tecnico-update.component';
 // Componentes do projeto
 //import { NavComponent } from './components/nav/nav.component';
 //import { HomeComponent } from './components/home/home.component';
@@ -66,7 +67,8 @@ import { NgxMaskModule } from 'ngx-mask';
     HeaderComponent,
     TecnicoListComponent,
     LoginComponent,
-    TecnicoCreateComponent
+    TecnicoCreateComponent,
+    TecnicoUpdateComponent
 //    TecnicoUpdateComponent,
 //    TecnicoDeleteComponent,
 //    ClienteCreateComponent,
