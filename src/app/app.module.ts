@@ -36,7 +36,7 @@ import { LoginComponent } from './components/login/login.component';
 import { ToastrModule } from 'ngx-toastr';
 import { AuthInterceptorProvider } from './interceptors/authentication.interceptor';
 import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecnico-create.component';
-
+import { NgxMaskModule } from 'ngx-mask';
 // Componentes do projeto
 //import { NavComponent } from './components/nav/nav.component';
 //import { HomeComponent } from './components/home/home.component';
@@ -66,13 +66,7 @@ import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecn
     HeaderComponent,
     TecnicoListComponent,
     LoginComponent,
-    TecnicoCreateComponent,
-//    NavComponent,
-//    HomeComponent,
-//    HeaderComponent,
-//    TecnicoListComponent,
-//    LoginComponent,
-//    TecnicoCreateComponent,
+    TecnicoCreateComponent
 //    TecnicoUpdateComponent,
 //    TecnicoDeleteComponent,
 //    ClienteCreateComponent,
@@ -113,8 +107,8 @@ import { TecnicoCreateComponent } from './components/tecnico/tecnico-create/tecn
       closeButton: true,
       progressBar: true,
       positionClass: 'toast-top-right'
-    })
-//    NgxMaskModule.forRoot()
+    }),
+    NgxMaskModule.forRoot()
   ],
   providers: [AuthInterceptorProvider],
   bootstrap: [AppComponent]
