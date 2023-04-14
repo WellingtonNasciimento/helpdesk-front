@@ -75,6 +75,7 @@
           <textarea class="descricao" 
             [(ngModel)]="chamado.observacoes"
             name="observacoes"
+            [formControl]="observacoes"
             matInput 
             placeholder="Ex. Trocar bateria queimada do notebook..."></textarea>
         </mat-form-field>
